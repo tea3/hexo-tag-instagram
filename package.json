@@ -1,0 +1,33 @@
+{
+  "name": "hexo-tag-instagram",
+  "version": "0.0.1",
+  "main": "index",
+  "dependencies": {},
+  "description": "Embed instagram photo and movie tag plugin for Hexo.",
+  "devDependencies": {},
+  "directories": {},
+  "author": {
+    "email": "tea3gtinfo@gmail.com",
+    "name": "tea3",
+    "url": "https://tea3.github.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/tea3/hexo-tag-instagram/issues"
+  },
+  "keywords": [
+    "hexo",
+    "tag",
+    "instagram"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "tea3gt",
+      "email": "tea3gtinfo@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tea3/hexo-tag-instagram.git"
+  }
+}
