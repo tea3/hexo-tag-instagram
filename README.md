@@ -19,10 +19,24 @@ npm install hexo-tag-instagram --save
 ## Usage
 
 ```
+{% instagram post-url %}
+```
+
+or
+
+```
 {% instagram shortcode %}
 ```
 
+## Example
+
 For example, if you want embed [this posts](https://www.instagram.com/p/8ppwIyE6lU/) (This posts shortcode is *8ppwIyE6lU*), please enter the following this.
+
+```
+{% instagram https://www.instagram.com/p/8ppwIyE6lU/ %}
+```
+
+Also, the above example can coding differently.
 
 ```
 {% instagram 8ppwIyE6lU %}
