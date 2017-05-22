@@ -2,15 +2,15 @@
 
 hexo.extend.tag.register('instagram', function(args, content){
 
+	// checking _config.yml
+	if( !( 'tagInstagram' in hexo.config ) || !('captioned' in hexo.config.tagInstagram)){
+      hexo.config.tagInstagram = { captioned: true };
+	}
+
 	var postURL    = "";
 	var postId     = "";
 	var returnHTML = "";
-	var is_captioned = true;
-
-	// checking _config.yml
-	if(!hexo.config.tagInstagram || hexo.config.tagInstagram.captioned !== undefined){
-	  is_captioned = (hexo.config.tagInstagram.captioned ? true : false);
-	}
+	var is_captioned = hexo.config.tagInstagram.captioned;
 
 
 	if(args.length == 1){
