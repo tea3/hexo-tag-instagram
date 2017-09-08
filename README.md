@@ -8,7 +8,7 @@ This is a Hexo tag plugin which allows you to simply embed Instagram photo on yo
 
 ## DEMO
 
-[https://tea3.github.io/p/hexo-tag-instagram/](https://tea3.github.io/p/hexo-tag-instagram/)
+[https://photo-tea.com/p/hexo-tag-instagram/](https://photo-tea.com/p/hexo-tag-instagram/)
 
 ## Installation
 
@@ -30,16 +30,16 @@ or
 
 ## Example
 
-For example, if you want embed [this posts](https://www.instagram.com/p/8ppwIyE6lU/) (This posts shortcode is *8ppwIyE6lU*), please enter the following this.
+For example, if you want embed [this posts](https://www.instagram.com/p/BXkz1bYB1-N/) (This posts shortcode is *BXkz1bYB1-N*), please enter the following this.
 
 ```
-{% instagram https://www.instagram.com/p/8ppwIyE6lU/ %}
+{% instagram https://www.instagram.com/p/BXkz1bYB1-N/ %}
 ```
 
 Also, the above example can coding differently.
 
 ```
-{% instagram 8ppwIyE6lU %}
+{% instagram BXkz1bYB1-N %}
 ```
 
 ## Option
@@ -61,7 +61,7 @@ tagInstagram:
 Also, can customize individually by posts. please edit your `your-posts-markdown.md` as following example.
 
 ```
-{% instagram false https://www.instagram.com/p/8ppwIyE6lU/ %}
+{% instagram false https://www.instagram.com/p/BXkz1bYB1-N/ %}
 ```
 
 
