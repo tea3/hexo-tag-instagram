@@ -64,6 +64,9 @@ Also, can customize individually by posts. please edit your `your-posts-markdown
 {% instagram false https://www.instagram.com/p/BXkz1bYB1-N/ %}
 ```
 
+## Can I customize style this ?
+
+The outside is adjustable. For example , to resize image , please see [#3](https://github.com/tea3/hexo-tag-instagram/issues/3).
 
 ## License
 
