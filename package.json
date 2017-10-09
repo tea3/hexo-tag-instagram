@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-instagram",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index",
   "dependencies": {},
   "description": "Embed instagram photo and movie tag plugin for Hexo.",
