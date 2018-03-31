@@ -19,13 +19,13 @@ npm install hexo-tag-instagram --save
 ## Usage
 
 ```
-{% instagram post-url %}
+{% instagram url:post-url %}
 ```
 
 or
 
 ```
-{% instagram shortcode %}
+{% instagram id:shortcode %}
 ```
 
 ## Example
@@ -33,14 +33,21 @@ or
 For example, if you want embed [this posts](https://www.instagram.com/p/BXkz1bYB1-N/) (This posts shortcode is *BXkz1bYB1-N*), please enter the following this.
 
 ```
-{% instagram https://www.instagram.com/p/BXkz1bYB1-N/ %}
+{% instagram url:https://www.instagram.com/p/BXkz1bYB1-N/ %}
 ```
 
 Also, the above example can coding differently.
 
 ```
-{% instagram BXkz1bYB1-N %}
+{% instagram id:BXkz1bYB1-N %}
 ```
+
+You can also resize image.
+
+```
+{% instagram width:50% id:BXkz1bYB1-N %}
+```
+
 
 ## Option
 
@@ -61,12 +68,8 @@ tagInstagram:
 Also, can customize individually by posts. please edit your `your-posts-markdown.md` as following example.
 
 ```
-{% instagram false https://www.instagram.com/p/BXkz1bYB1-N/ %}
+{% instagram captioned:false url:https://www.instagram.com/p/BXkz1bYB1-N/ %}
 ```
-
-## Can I customize style this ?
-
-The outside is adjustable. For example , to resize image , please see [#3](https://github.com/tea3/hexo-tag-instagram/issues/3).
 
 ## License
 
