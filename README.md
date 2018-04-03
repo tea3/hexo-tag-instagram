@@ -8,7 +8,8 @@ This is a Hexo tag plugin which allows you to simply embed Instagram photo on yo
 
 ## DEMO
 
-[https://photo-tea.com/p/hexo-tag-instagram/](https://photo-tea.com/p/hexo-tag-instagram/)
+- [https://photo-tea.com/p/hexo-tag-instagram/](https://photo-tea.com/p/hexo-tag-instagram/)
+- [https://blog.eson.org/pub/fc959554/)](https://blog.eson.org/pub/fc959554/)
 
 ## Installation
 
@@ -43,9 +44,12 @@ Also, the above example can coding differently.
 ```
 
 
-## Option
+## Customization
 
 This plugin can specify the following options.
+
+- captioned
+- width
 
 ## caption & size
 
