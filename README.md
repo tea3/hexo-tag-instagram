@@ -19,13 +19,13 @@ npm install hexo-tag-instagram --save
 ## Usage
 
 ```
-{% instagram url:post-url %}
+{% instagram post-url %}
 ```
 
 or
 
 ```
-{% instagram id:shortcode %}
+{% instagram shortcode %}
 ```
 
 ## Example
@@ -33,19 +33,13 @@ or
 For example, if you want embed [this posts](https://www.instagram.com/p/BXkz1bYB1-N/) (This posts shortcode is *BXkz1bYB1-N*), please enter the following this.
 
 ```
-{% instagram url:https://www.instagram.com/p/BXkz1bYB1-N/ %}
+{% instagram https://www.instagram.com/p/BXkz1bYB1-N/ %}
 ```
 
 Also, the above example can coding differently.
 
 ```
-{% instagram id:BXkz1bYB1-N %}
-```
-
-You can also resize image.
-
-```
-{% instagram width:50% id:BXkz1bYB1-N %}
+{% instagram BXkz1bYB1-N %}
 ```
 
 
@@ -53,22 +47,24 @@ You can also resize image.
 
 This plugin can specify the following options.
 
-### Caption option
+## caption & size
 
 You can decide whether to display the caption of posts of instagram. ( By default the caption is displayed. )
 
 Please edit your `_config.yml` as following example.
 
 ```
-# Hide the captions of all instagrams.
+# captioned: false. Hide the captions of all instagrams.
+# width: set the global width of all instagrams
 tagInstagram:
   captioned: false
+  width: 40%
 ```
 
 Also, can customize individually by posts. please edit your `your-posts-markdown.md` as following example.
 
 ```
-{% instagram captioned:false url:https://www.instagram.com/p/BXkz1bYB1-N/ %}
+{% instagram false 40% https://www.instagram.com/p/BXkz1bYB1-N/ %}
 ```
 
 ## License
