@@ -59,16 +59,16 @@ Please edit your `_config.yml` as following example.
 
 ```
 # captioned: false. Hide the captions of all instagrams.
-# width: set the global width of all instagrams
+# width: set the width of all instagrams
 tagInstagram:
   captioned: false
-  width: 40%
+  width: 50%
 ```
 
 Also, can customize individually by posts. please edit your `your-posts-markdown.md` as following example.
 
 ```
-{% instagram false 40% https://www.instagram.com/p/BXkz1bYB1-N/ %}
+{% instagram false 50% https://www.instagram.com/p/BXkz1bYB1-N/ %}
 ```
 
 ## License
